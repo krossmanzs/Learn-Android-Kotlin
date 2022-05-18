@@ -5,7 +5,7 @@ The diagram shown below:
 
 ![Android Platform Arch. Stack Diagram](res/android-stack_2x.png)
 
-## Linux Kernel
+## [Linux Kernel](https://developer.android.com/guide/platform#linux-kernel)
 The foundation of the Android platform is the Linux kernel. For example, the Android Runtime (ART) 
 relies on the Linux kernel for underlying functionalities such as **threading and low-level memory 
 management**.
