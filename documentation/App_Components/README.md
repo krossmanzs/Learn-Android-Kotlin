@@ -6,7 +6,7 @@ point through which the system or a user can enter your app. Some components dep
 There are four different types of app components:
 
 * **[Activities](Activities)**: They dictate the UI and handle the user interaction to the smart phone screen.
-* **[Services]()**: They handle background processing associated with an application.
+* **[Services](Services)**: They handle background processing associated with an application.
 * **[Broadcast]()** receivers: They handle communication between Android OS and applications.
 * **[Content providers]()**: They handle data and database management issues.
 
