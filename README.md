@@ -1,6 +1,9 @@
 # LEARN ANDROID IN KOTLIN
 My learning process to Android App Developer with Kotlin Programming Language.
 
+## Useful Guide
+Just in case if I forgot something, it can be use for [Useful Guides](documentation/Useful_Guide).
+
 ## Documentation
 * [Why Kotlin?](documentation/Language)
 * [Android Platform Architecture](documentation/Android_Platform_Architecture)
