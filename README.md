@@ -8,11 +8,11 @@ Just in case if I forgot something, it can be use for [Useful Guides](documentat
 * [Why Kotlin?](documentation/Language)
 * [Android Platform Architecture](documentation/Android_Platform_Architecture)
 * [App Manifest](documentation/App_Manifest)
-* App Components ***(Coming Soon)***
-    * Activity
-    * Service
+* [App Components](documentation/App_Components) ***(Ongoing)***
+    * [Activity](documentation/App_Components/Activities)
+    * [Service](documentation/App_Components/Services)
+    * Broadcast
     * Content Provider
-    * Intent
 * App Architecture ***(Coming Soon)***
 * App Entry Points ***(Coming Soon)***
     * Activities (Jetpack)
