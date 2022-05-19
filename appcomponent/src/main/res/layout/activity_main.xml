@@ -17,12 +17,21 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        android:id="@+id/btnGotoService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Service"
+        app:layout_constraintEnd_toEndOf="@+id/btn1"
+        app:layout_constraintStart_toStartOf="@+id/btn1"
+        app:layout_constraintTop_toBottomOf="@+id/btn1" />
+
+    <Button
         android:id="@+id/btnFinish"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Finish"
-        app:layout_constraintEnd_toEndOf="@+id/btn1"
-        app:layout_constraintStart_toStartOf="@+id/btn1"
-        app:layout_constraintTop_toBottomOf="@+id/btn1" />
+        app:layout_constraintEnd_toEndOf="@+id/btnGotoService"
+        app:layout_constraintStart_toStartOf="@+id/btnGotoService"
+        app:layout_constraintTop_toBottomOf="@+id/btnGotoService" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

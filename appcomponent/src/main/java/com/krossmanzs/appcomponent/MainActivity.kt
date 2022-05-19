@@ -12,16 +12,23 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val btn1: Button = findViewById(R.id.btn1)
+        val btnFinish: Button = findViewById(R.id.btnFinish)
+        val btnGotoService: Button = findViewById(R.id.btnGotoService)
 
         btn1.setOnClickListener {
             val intent = Intent(this, MainActivity2::class.java)
             startActivity(intent)
         }
 
-        val btnFinish: Button = findViewById(R.id.btnFinish)
 
         btnFinish.setOnClickListener {
             finish()
+        }
+
+        btnGotoService.setOnClickListener {
+            Intent(this, ServiceActivity::class.java).also {
+                startActivity(it)
+            }
         }
     }
 
