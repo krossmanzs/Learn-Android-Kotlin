@@ -5,3 +5,4 @@
 * [SERVICES - Android Fundamentals](https://youtu.be/EwwB_wZhBaw)
 * [START_STICKY and START_NOT_STICKY](https://stackoverflow.com/questions/9093271/start-sticky-and-start-not-sticky)
 * [StopWatch Timer on Service Android Studio Kotlin Tutorial](https://youtu.be/LPjhP9D3pm8)
+* [BROADCAST RECEIVERS - Android Fundamentals](https://www.youtube.com/watch?v=lldf3nei2rQ)

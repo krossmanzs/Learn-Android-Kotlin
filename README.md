@@ -11,7 +11,7 @@ Just in case if I forgot something, it can be use for [Useful Guides](documentat
 * [App Components](documentation/App_Components) ***(Ongoing)***
     * [Activity](documentation/App_Components/Activities)
     * [Service](documentation/App_Components/Services)
-    * Broadcast
+    * [Broadcast Receiver](documentation/App_Components/Broadcast_Receiver)
     * Content Provider
 * App Architecture ***(Coming Soon)***
 * App Entry Points ***(Coming Soon)***

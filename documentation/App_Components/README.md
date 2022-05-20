@@ -7,7 +7,7 @@ There are four different types of app components:
 
 * **[Activities](Activities)**: They dictate the UI and handle the user interaction to the smart phone screen.
 * **[Services](Services)**: They handle background processing associated with an application.
-* **[Broadcast]()** receivers: They handle communication between Android OS and applications.
+* **[Broadcast receivers](Broadcast_Receiver)**: They handle communication between Android OS and applications.
 * **[Content providers]()**: They handle data and database management issues.
 
 Each type serves a distinct purpose and has a distinct lifecycle that defines how the component is 
