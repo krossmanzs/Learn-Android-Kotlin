@@ -1,10 +1,12 @@
-package com.krossmanzs.appcomponent
+package com.krossmanzs.appcomponent.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
+import com.krossmanzs.appcomponent.R
+import com.krossmanzs.appcomponent.service.ServiceActivity
 import com.krossmanzs.appcomponent.broadcast_receiver.BroadcastReceiverActivity
 
 class MainActivity : AppCompatActivity() {
@@ -58,5 +60,18 @@ class MainActivity : AppCompatActivity() {
     override fun onPause() {
         super.onPause()
         Toast.makeText(applicationContext, "This is onPause()", Toast.LENGTH_SHORT).show()
+    }
+}
+
+class MainActivity2 : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main2)
+
+        val btn2: Button = findViewById(R.id.btn2)
+
+        btn2.setOnClickListener {
+            finish()
+        }
     }
 }

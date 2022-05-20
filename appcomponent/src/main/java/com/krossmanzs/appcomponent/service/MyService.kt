@@ -1,15 +1,90 @@
-package com.krossmanzs.appcomponent
+package com.krossmanzs.appcomponent.service
 
+import android.app.Service
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.IBinder
+import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
+import com.krossmanzs.appcomponent.R
+import kotlinx.coroutines.*
+import java.util.*
+import java.util.concurrent.Executors
 import kotlin.math.roundToInt
+
+class MyService : Service() {
+    val TAG = "MyService"
+
+    init {
+        Log.d(TAG, "Service is running...")
+    }
+
+    override fun onBind(p0: Intent?): IBinder? = null
+
+    override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
+        val dataString = intent?.getStringExtra("EXTRA_DATA")
+
+        runBlocking {
+            val scope = Executors.newFixedThreadPool(10).asCoroutineDispatcher()
+            CoroutineScope(scope).launch {
+                dataString?.let {
+                    Log.d(TAG, dataString)
+                }
+
+                repeat(3) { // WARNING! Endless loop
+                    Log.d(TAG,"data")
+                }
+            }.start()
+        }
+
+        return START_STICKY
+
+        // FOR MORE INFORMATION
+        // https://stackoverflow.com/questions/9093271/start-sticky-and-start-not-sticky
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        Log.d(TAG,"Service is being killed...")
+    }
+}
+
+class MyServiceTimer : Service() {
+    override fun onBind(p0: Intent?): IBinder? = null
+
+    private val timer = Timer()
+
+    override fun onStartCommand(intent: Intent, flags: Int, startId: Int): Int {
+        val time = intent.getDoubleExtra(TIME_EXTRA, 0.0)
+        timer.scheduleAtFixedRate(TimeTask(time), 0,1000)
+        return START_NOT_STICKY
+    }
+
+    override fun onDestroy() {
+        timer.cancel()
+        super.onDestroy()
+    }
+
+    private inner class TimeTask(private var time: Double) : TimerTask() {
+        override fun run() {
+            val intent = Intent(TIMER_UPDATED)
+            time++
+            intent.putExtra(TIME_EXTRA, time)
+            sendBroadcast(intent)
+        }
+    }
+
+    companion object {
+        const val TIMER_UPDATED = "timerUpdated"
+        const val TIME_EXTRA = "timeExtra"
+    }
+}
 
 class ServiceActivity : AppCompatActivity() {
     private var timerStarted = false
