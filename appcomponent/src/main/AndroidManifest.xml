@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.krossmanzs.appcomponent">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -30,6 +33,17 @@
 
         <service android:name=".service.MyService" />
         <service android:name=".service.MyServiceTimer" />
+
+        <!-- The below code is for android OS version below N -->
+        <receiver
+            android:name=".broadcast_receiver.ConnectivityReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
     </application>
+
 
 </manifest>

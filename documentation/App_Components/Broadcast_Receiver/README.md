@@ -14,3 +14,16 @@ fired once the Android system has completed the boot process.
 ### Source
 * https://developer.android.com/guide/components/fundamentals
 * https://www.vogella.com/tutorials/AndroidBroadcastReceiver/article.html
+
+
+# Learn how it works
+Here is the diagram on how 
+[Check connectivity with Broadcast Receiver](../../../appcomponent/src/main/java/com/krossmanzs/appcomponent/broadcast_receiver)
+works
+
+![Check Connectivity w/ Broadcast Receiver Diagram](../res/check_connectivity_broadcast_receiver.png)
+
+** In case, I forget it in the future
+
+**We pass the `isConnected` parameter on `override fun onNetworkConnectionChanged(isConnected: Boolean)` 
+when we passing it from the ConnectivityReceiver class (Where the interface from)**
