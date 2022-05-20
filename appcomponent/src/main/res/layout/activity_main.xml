@@ -6,32 +6,44 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/btn1"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Go to Layout 2"
+        android:orientation="vertical"
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" >
 
-    <Button
-        android:id="@+id/btnGotoService"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Go to Service"
-        app:layout_constraintEnd_toEndOf="@+id/btn1"
-        app:layout_constraintStart_toStartOf="@+id/btn1"
-        app:layout_constraintTop_toBottomOf="@+id/btn1" />
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go to Layout 2"
+            />
+
+        <Button
+            android:id="@+id/btnGotoService"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go to Service"/>
+
+        <Button
+            android:id="@+id/btnGotoBroadcastReceiver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go to Broadcast Receiver"/>
+    </LinearLayout>
+
 
     <Button
         android:id="@+id/btnFinish"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Finish"
-        app:layout_constraintEnd_toEndOf="@+id/btnGotoService"
-        app:layout_constraintStart_toStartOf="@+id/btnGotoService"
-        app:layout_constraintTop_toBottomOf="@+id/btnGotoService" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

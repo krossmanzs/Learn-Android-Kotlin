@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
+import com.krossmanzs.appcomponent.broadcast_receiver.BroadcastReceiverActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,6 +15,13 @@ class MainActivity : AppCompatActivity() {
         val btn1: Button = findViewById(R.id.btn1)
         val btnFinish: Button = findViewById(R.id.btnFinish)
         val btnGotoService: Button = findViewById(R.id.btnGotoService)
+        val btnGotoBroadcastReceiver: Button = findViewById(R.id.btnGotoBroadcastReceiver)
+
+        btnGotoBroadcastReceiver.setOnClickListener {
+            Intent(this, BroadcastReceiverActivity::class.java).also {
+                startActivity(it)
+            }
+        }
 
         btn1.setOnClickListener {
             val intent = Intent(this, MainActivity2::class.java)

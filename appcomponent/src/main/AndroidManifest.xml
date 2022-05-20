@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Learn_Android_Kotlin">
         <activity
+            android:name=".broadcast_receiver.BroadcastReceiverActivity"
+            android:exported="false" />
+        <activity
             android:name=".ServiceActivity"
             android:exported="false" />
         <activity
@@ -24,8 +27,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <service android:name=".MyService"/>
-        <service android:name=".MyServiceTimer"/>
+
+        <service android:name=".MyService" />
+        <service android:name=".MyServiceTimer" />
     </application>
 
 </manifest>
