@@ -8,6 +8,7 @@ import android.widget.Toast
 import com.krossmanzs.appcomponent.R
 import com.krossmanzs.appcomponent.service.ServiceActivity
 import com.krossmanzs.appcomponent.broadcast_receiver.BroadcastReceiverActivity
+import content_provider.GetContactActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,6 +19,13 @@ class MainActivity : AppCompatActivity() {
         val btnFinish: Button = findViewById(R.id.btnFinish)
         val btnGotoService: Button = findViewById(R.id.btnGotoService)
         val btnGotoBroadcastReceiver: Button = findViewById(R.id.btnGotoBroadcastReceiver)
+        val btnGotoContentProvider: Button = findViewById(R.id.btnGotoContentProvider)
+
+        btnGotoContentProvider.setOnClickListener {
+            Intent(this, GetContactActivity::class.java).also {
+                startActivity(it)
+            }
+        }
 
         btnGotoBroadcastReceiver.setOnClickListener {
             Intent(this, BroadcastReceiverActivity::class.java).also {

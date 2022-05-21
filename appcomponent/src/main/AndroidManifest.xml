@@ -3,7 +3,8 @@
     package="com.krossmanzs.appcomponent">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <application
         android:allowBackup="true"
@@ -12,6 +13,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Learn_Android_Kotlin">
+        <activity
+            android:name="content_provider.GetContactActivity"
+            android:exported="false" />
         <activity
             android:name=".broadcast_receiver.BroadcastReceiverActivity"
             android:exported="false" />
@@ -32,9 +36,7 @@
         </activity>
 
         <service android:name=".service.MyService" />
-        <service android:name=".service.MyServiceTimer" />
-
-        <!-- The below code is for android OS version below N -->
+        <service android:name=".service.MyServiceTimer" /> <!-- The below code is for android OS version below N -->
         <receiver
             android:name=".broadcast_receiver.ConnectivityReceiver"
             android:enabled="true"
@@ -44,6 +46,5 @@
             </intent-filter>
         </receiver>
     </application>
-
 
 </manifest>
