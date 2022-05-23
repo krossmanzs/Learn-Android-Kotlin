@@ -69,6 +69,7 @@ by the system when the system needs to recoup memory**. If your activity include
 threads or other long-running resources, destruction could lead to a memory leak if they’re not 
 released, so you need to **remember to stop these processes here as well**.
 
+## [Handle Activity State Changes](https://developer.android.com/guide/components/activities/state-changes)
 
 ### Source 
 * https://www.raywenderlich.com/2705552-introduction-to-android-activities-with-kotlin#toc-anchor-002
