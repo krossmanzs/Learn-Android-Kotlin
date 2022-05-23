@@ -13,6 +13,7 @@ Just in case if I forgot something, it can be use for [Useful Guides](documentat
     * [Service](documentation/App_Components/Services)
     * [Broadcast Receiver](documentation/App_Components/Broadcast_Receiver)
     * [Content Provider](documentation/App_Components/Content_Provider)
+    * [Intent](documentation/App_Components/Intent)
 * App Architecture ***(Ongoing)***
 * App Entry Points ***(Coming Soon)***
     * Activities (Jetpack)

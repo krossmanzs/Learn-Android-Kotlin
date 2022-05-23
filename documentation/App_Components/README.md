@@ -11,6 +11,7 @@ There are four different types of app components:
 * **[Content providers]()**: They handle data and database management issues.
 
 Each type serves a distinct purpose and has a distinct lifecycle that defines how the component is 
-created and destroyed. The following sections describe the four types of app components.
+created and destroyed. The following sections describe the four types of app components. All of the
+component above can we put extra information using [Intent](Intent).
 
 More details at [Application Fundamentals](https://developer.android.com/guide/components/fundamentals)
