@@ -17,6 +17,10 @@ Just in case if I forgot something, it can be use for [Useful Guides](documentat
 * [App Architecture](documentation/App_Architecture)
 * App Entry Points ***(Ongoing)***
     * Activities (Jetpack)
+      * [Activity Lifecycles](documentation/App_Components/Activities)
+      * Activity State Changes
+      * Task and Back Stack
+      * Parcelables and Bundles
     * App Shortcuts (Jetpack)
 * App Navigation ***(Coming Soon)***
     * Navigation Component (Jetpack)
