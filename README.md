@@ -16,7 +16,7 @@ Just in case if I forgot something, it can be use for [Useful Guides](documentat
     * [Intent](documentation/App_Components/Intent)
 * [App Architecture](documentation/App_Architecture)
 * App Entry Points ***(Ongoing)***
-    * Activities (Jetpack)
+    * [Activities (Jetpack)](documentation/App_Entry_Points/Activities)
       * [Activity Lifecycles](documentation/App_Components/Activities)
       * [Activity State Changes](documentation/App_Components/Activities)
       * [Task and Back Stack](documentation/App_Entry_Points/Activities/Task_and_Back_Stack)
