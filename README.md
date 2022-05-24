@@ -20,7 +20,7 @@ Just in case if I forgot something, it can be use for [Useful Guides](documentat
       * [Activity Lifecycles](documentation/App_Components/Activities)
       * [Activity State Changes](documentation/App_Components/Activities)
       * [Task and Back Stack](documentation/App_Entry_Points/Activities/Task_and_Back_Stack)
-      * Parcelables and Bundles
+      * [Parcelables and Bundles](documentation/App_Entry_Points/Activities/Parcelables_and_Bundles)
     * App Shortcuts (Jetpack)
 * App Navigation ***(Coming Soon)***
     * Navigation Component (Jetpack)
