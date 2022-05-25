@@ -21,7 +21,7 @@ Just in case if I forgot something, it can be use for [Useful Guides](documentat
       * [Activity State Changes](documentation/App_Components/Activities)
       * [Task and Back Stack](documentation/App_Entry_Points/Activities/Task_and_Back_Stack)
       * [Parcelables and Bundles](documentation/App_Entry_Points/Activities/Parcelables_and_Bundles)
-    * App Shortcuts (Jetpack)
+    * [App Shortcuts (Jetpack)](documentation/App_Entry_Points/App_Shortcuts)
 * App Navigation ***(Coming Soon)***
     * Navigation Component (Jetpack)
     * Fragments (Jetpack)
