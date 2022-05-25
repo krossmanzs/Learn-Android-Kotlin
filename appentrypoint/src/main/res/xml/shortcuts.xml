@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="compose"
+        android:enabled="true"
+        android:icon="@drawable/ic_launcher_background"
+        android:shortcutShortLabel="@string/short_shortcut_name"
+        android:shortcutLongLabel="@string/long_shortcut_name"
+        android:shortcutDisabledMessage="@string/disable_shortcut_name">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.krossmanzs.appentrypoint"
+            android:targetClass="com.krossmanzs.appentrypoint.ui.MainActivity"/>
+<!--        Jika shortcut terdapat multiple intents, include mereka disini.
+            Intent terakhir di list adalah apa yang user lihat ketika launch
+            shortcut ini-->
+        <categories android:name="android.shortcut.mediaplayer"/>
+        <capabitily-binding android:key="actions.intent.CREATE_MESSAGE"/>
+    </shortcut>
+</shortcuts>

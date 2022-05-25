@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">App entry Point</string>
+
+    <string name="short_shortcut_name">halo teman</string>
+    <string name="long_shortcut_name">halo teman teman</string>
+    <string name="disable_shortcut_name">ini disable ya</string>
 </resources>
