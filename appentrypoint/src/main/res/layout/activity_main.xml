@@ -21,6 +21,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Parcelable"/>
+
+        <Button
+            android:id="@+id/btnAddShortcut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Shortcut"/>
+
+        <Button
+            android:id="@+id/btnRemoveShortcut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remove Shortcut"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
