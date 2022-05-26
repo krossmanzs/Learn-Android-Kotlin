@@ -1,12 +1,16 @@
 package com.krossmanzs.appentrypoint.ui
 
 import android.content.Intent
+import android.content.pm.ShortcutManager
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
+import android.widget.Toast
 import androidx.core.content.pm.ShortcutInfoCompat
 import androidx.core.content.pm.ShortcutManagerCompat
+import androidx.core.content.pm.ShortcutManagerCompat.FLAG_MATCH_PINNED
 import androidx.core.graphics.drawable.IconCompat
 import com.krossmanzs.appentrypoint.R
 
@@ -36,6 +40,20 @@ class MainActivity : AppCompatActivity() {
         }
 
         btnAddShortcut.setOnClickListener {
+            if (ShortcutManagerCompat.isRequestPinShortcutSupported(this)) {
+                val currPinned : List<ShortcutInfoCompat> = ShortcutManagerCompat.getShortcuts(this, FLAG_MATCH_PINNED);
+                val currShortcutIdPinned : MutableList<String> = mutableListOf()
+
+                for(currShortcut : ShortcutInfoCompat in currPinned) {
+                    currShortcutIdPinned.add(currShortcut.id)
+                }
+
+                if(currShortcutIdPinned.contains(SHORTCUT_ID1)) {
+                    Toast.makeText(this,"Sudah di pin!",Toast.LENGTH_SHORT).show()
+                } else {
+                    ShortcutManagerCompat.requestPinShortcut(this, shortcut, null);
+                }
+            }
             ShortcutManagerCompat.pushDynamicShortcut(this, shortcut)
         }
 
