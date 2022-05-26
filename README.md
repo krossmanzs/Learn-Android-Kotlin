@@ -15,14 +15,14 @@ Just in case if I forgot something, it can be use for [Useful Guides](documentat
     * [Content Provider](documentation/App_Components/Content_Provider)
     * [Intent](documentation/App_Components/Intent)
 * [App Architecture](documentation/App_Architecture)
-* [App Entry Points](documentation/App_Entry_Points) ***(Ongoing)***
+* [App Entry Points](documentation/App_Entry_Points) 
     * [Activities (Jetpack)](documentation/App_Entry_Points/Activities)
       * [Activity Lifecycles](documentation/App_Components/Activities)
       * [Activity State Changes](documentation/App_Components/Activities)
       * [Task and Back Stack](documentation/App_Entry_Points/Activities/Task_and_Back_Stack)
       * [Parcelables and Bundles](documentation/App_Entry_Points/Activities/Parcelables_and_Bundles)
     * [App Shortcuts (Jetpack)](documentation/App_Entry_Points/App_Shortcuts)
-* App Navigation ***(Coming Soon)***
+* App Navigation ***(Ongoing)***
     * Navigation Component (Jetpack)
     * Fragments (Jetpack)
     * DialogFragment
