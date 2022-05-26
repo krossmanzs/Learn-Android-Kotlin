@@ -23,7 +23,7 @@ Just in case if I forgot something, it can be use for [Useful Guides](documentat
       * [Parcelables and Bundles](documentation/App_Entry_Points/Activities/Parcelables_and_Bundles)
     * [App Shortcuts (Jetpack)](documentation/App_Entry_Points/App_Shortcuts)
 * App Navigation ***(Ongoing)***
-    * Navigation Component (Jetpack)
+    * [Navigation Component (Jetpack)](documentation/App_Navigation/Navigation_Component)
     * Fragments (Jetpack)
     * DialogFragment
     * BottomSheetDialogFragment
