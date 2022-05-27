@@ -16,3 +16,4 @@ rootProject.name = "Learn_Android_Kotlin"
 include ':app'
 include ':appcomponent'
 include ':appentrypoint'
+include ':appnavigation'
