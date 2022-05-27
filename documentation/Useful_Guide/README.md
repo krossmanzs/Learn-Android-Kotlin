@@ -7,3 +7,4 @@
 * [StopWatch Timer on Service Android Studio Kotlin Tutorial](https://youtu.be/LPjhP9D3pm8)
 * [BROADCAST RECEIVERS - Android Fundamentals](https://www.youtube.com/watch?v=lldf3nei2rQ)
 * [Listen To Internet Connection Using BroadcastReceiver in Android — Kotlin](https://medium.com/@dilipsuthar97/listen-to-internet-connection-using-broadcastreceiver-in-android-kotlin-6b527426a6f2)
+* [Navigation Component - Android Studio (Playlist)](https://www.youtube.com/playlist?list=PLSrm9z4zp4mHilvsfUM3jeCYFV3fTAS3J)
