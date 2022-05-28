@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import androidx.core.os.bundleOf
 import androidx.navigation.Navigation
 import androidx.navigation.fragment.navArgs
 
@@ -25,8 +26,10 @@ class SecondFragment : Fragment() {
         tv2.text = "$myNumber"
 
         tv2.setOnClickListener {
+            val bundle = bundleOf(ThirdFragment.EXTRA_BUNDLE to "data bundle")
+
             Navigation.findNavController(view)
-                .navigate(R.id.action_secondFragment_to_firstFragment)
+                .navigate(R.id.action_secondFragment_to_thirdFragment, bundle)
         }
 
         return view
