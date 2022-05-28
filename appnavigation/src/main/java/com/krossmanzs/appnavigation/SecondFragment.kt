@@ -7,8 +7,12 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.navigation.Navigation
+import androidx.navigation.fragment.navArgs
 
 class SecondFragment : Fragment() {
+
+    private val args: SecondFragmentArgs by navArgs()
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -16,6 +20,9 @@ class SecondFragment : Fragment() {
         val view = inflater.inflate(R.layout.fragment_second, container, false)
 
         val tv2 : TextView = view.findViewById(R.id.textView2)
+
+        val myNumber = args.number
+        tv2.text = "$myNumber"
 
         tv2.setOnClickListener {
             Navigation.findNavController(view)
