@@ -24,7 +24,7 @@ Just in case if I forgot something, it can be use for [Useful Guides](documentat
     * [App Shortcuts (Jetpack)](documentation/App_Entry_Points/App_Shortcuts)
 * App Navigation ***(Ongoing)***
     * [Navigation Component (Jetpack)](documentation/App_Navigation/Navigation_Component)
-    * Fragments (Jetpack)
+    * [Fragments (Jetpack)](documentation/App_Navigation/Fragments)
     * DialogFragment
     * BottomSheetDialogFragment
     * App Links
