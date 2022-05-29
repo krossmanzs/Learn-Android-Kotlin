@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/firstFragment"
-        android:name="com.krossmanzs.appnavigation.FirstFragment"
+        android:name="com.krossmanzs.appnavigation.navgraph.FirstFragment"
         android:label="fragment_first"
         tools:layout="@layout/fragment_first" >
         <action
@@ -19,7 +19,7 @@
 
     <fragment
         android:id="@+id/secondFragment"
-        android:name="com.krossmanzs.appnavigation.SecondFragment"
+        android:name="com.krossmanzs.appnavigation.navgraph.SecondFragment"
         android:label="fragment_second"
         tools:layout="@layout/fragment_second" >
         <argument
@@ -32,7 +32,7 @@
     </fragment>
     <fragment
         android:id="@+id/thirdFragment"
-        android:name="com.krossmanzs.appnavigation.ThirdFragment"
+        android:name="com.krossmanzs.appnavigation.navgraph.ThirdFragment"
         android:label="fragment_third"
         tools:layout="@layout/fragment_third" >
         <action
