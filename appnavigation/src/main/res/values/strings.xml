@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">App Navigation</string>
+
+    <string name="bottom_sheet_option_camera">Use Camera</string>
+    <string name="bottom_sheet_option_gallery">Upload from Gallery</string>
+    <string name="bottom_sheet_option_heading">Add Photo</string>
+    <string name="bottom_sheet_option_remove_photo">Remove Photo</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_upper">LOGIN</string>
 </resources>

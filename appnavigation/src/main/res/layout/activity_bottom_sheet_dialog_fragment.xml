@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/blue"
+    tools:context=".bottomsheetdialogfragment.BottomSheetDialogFragmentActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="@dimen/dp_16"
+        android:layout_centerInParent="true">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginBottom="@dimen/dp_32"
+            android:src="@drawable/ic_baseline_person_24"
+            app:civ_border_width="2dp"
+            app:civ_circle_background_color="@color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/login_upper"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/dp_8"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/username"
+            android:layout_marginBottom="@dimen/dp_8"
+            android:drawablePadding="@dimen/dp_8"
+            android:drawableStart="@drawable/ic_baseline_person_24"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:layout_marginBottom="@dimen/dp_8"
+            android:inputType="textPassword"
+            android:drawablePadding="@dimen/dp_8"
+            android:drawableStart="@drawable/ic_baseline_lock_24" />
+
+    </LinearLayout>
+
+</RelativeLayout>
