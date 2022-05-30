@@ -25,7 +25,7 @@ Just in case if I forgot something, it can be use for [Useful Guides](documentat
 * App Navigation ***(Ongoing)***
     * [Navigation Component (Jetpack)](documentation/App_Navigation/Navigation_Component)
     * [Fragments (Jetpack)](documentation/App_Navigation/Fragments)
-    * DialogFragment
+    * [DialogFragment](documentation/App_Navigation/DialogFragment)
     * BottomSheetDialogFragment
     * App Links
 * App Startup (Jetpack) ***(Coming Soon)***
