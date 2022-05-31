@@ -26,7 +26,7 @@ Just in case if I forgot something, it can be use for [Useful Guides](documentat
     * [Navigation Component (Jetpack)](documentation/App_Navigation/Navigation_Component)
     * [Fragments (Jetpack)](documentation/App_Navigation/Fragments)
     * [DialogFragment](documentation/App_Navigation/DialogFragment)
-    * BottomSheetDialogFragment
+    * [BottomSheetDialogFragment](documentation/App_Navigation/BottomSheetDialogFragment)
     * App Links
 * App Startup (Jetpack) ***(Coming Soon)***
 * Dependency Injection ***(Coming Soon)***
