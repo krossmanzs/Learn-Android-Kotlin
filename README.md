@@ -28,8 +28,8 @@ Just in case if I forgot something, it can be use for [Useful Guides](documentat
     * [DialogFragment](documentation/App_Navigation/DialogFragment)
     * [BottomSheetDialogFragment](documentation/App_Navigation/BottomSheetDialogFragment)
     * [App Links](documentation/App_Navigation/App_Links)
-* [App Startup (Jetpack)](documentation/App_Startup) ***(Ongoing)***
-* Dependency Injection ***(Coming Soon)***
+* [App Startup (Jetpack)](documentation/App_Startup)
+* Dependency Injection ***(Ongoing)***
 * Architecture Components (Jetpack) ***(Coming Soon)***
     * UI Layer
     * Data Layer
