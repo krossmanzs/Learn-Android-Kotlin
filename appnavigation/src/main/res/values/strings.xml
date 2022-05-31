@@ -9,4 +9,6 @@
     <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="login_upper">LOGIN</string>
+    <string name="filter_view_http_krossmanzs">filter.view.http.Krossmanzs</string>
+    <string name="filter_view_example_krossmanzs">filter.view.example.Krossmanzs</string>
 </resources>

@@ -3,7 +3,9 @@ package com.krossmanzs.appnavigation
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
+import com.krossmanzs.appnavigation.applinks.AppLinkActivity
 import com.krossmanzs.appnavigation.bottomsheetdialogfragment.BottomSheetDialogFragmentActivity
 import com.krossmanzs.appnavigation.dialogfragment.DownloadConfirmationDialogFragment
 import com.krossmanzs.appnavigation.fragment.FragmentActivity
@@ -18,6 +20,13 @@ class MainActivity : AppCompatActivity() {
         val btnFragment : Button = findViewById(R.id.btnFragment)
         val btnDialogFragment : Button = findViewById(R.id.btnDialogFragment)
         val btnBottomSheetDialogFragment : Button = findViewById(R.id.btnBottomSheetDialogFragment)
+        val btnAppLink : Button = findViewById(R.id.btnAppLink)
+
+        btnAppLink.setOnClickListener {
+            Intent(this, AppLinkActivity::class.java).also {
+                startActivity(it)
+            }
+        }
 
         btnBottomSheetDialogFragment.setOnClickListener {
             Intent(this, BottomSheetDialogFragmentActivity::class.java).also {

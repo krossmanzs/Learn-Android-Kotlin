@@ -10,6 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Learn_Android_Kotlin">
         <activity
+            android:name=".applinks.AppLinkActivity"
+            android:exported="true" >
+            <intent-filter android:label="@string/filter_view_http_krossmanzs">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+                <data android:scheme="https"
+                    android:host="www.krossmanzs.com"
+                    android:pathPrefix="/test"/>
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".bottomsheetdialogfragment.BottomSheetDialogFragmentActivity"
             android:exported="false" />
         <activity
