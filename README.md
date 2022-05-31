@@ -22,13 +22,13 @@ Just in case if I forgot something, it can be use for [Useful Guides](documentat
       * [Task and Back Stack](documentation/App_Entry_Points/Activities/Task_and_Back_Stack)
       * [Parcelables and Bundles](documentation/App_Entry_Points/Activities/Parcelables_and_Bundles)
     * [App Shortcuts (Jetpack)](documentation/App_Entry_Points/App_Shortcuts)
-* App Navigation ***(Ongoing)***
+* [App Navigation](documentation/App_Navigation)
     * [Navigation Component (Jetpack)](documentation/App_Navigation/Navigation_Component)
     * [Fragments (Jetpack)](documentation/App_Navigation/Fragments)
     * [DialogFragment](documentation/App_Navigation/DialogFragment)
     * [BottomSheetDialogFragment](documentation/App_Navigation/BottomSheetDialogFragment)
     * [App Links](documentation/App_Navigation/App_Links)
-* App Startup (Jetpack) ***(Coming Soon)***
+* App Startup (Jetpack) ***(Ongoing)***
 * Dependency Injection ***(Coming Soon)***
 * Architecture Components (Jetpack) ***(Coming Soon)***
     * UI Layer
