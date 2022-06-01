@@ -29,8 +29,8 @@ Just in case if I forgot something, it can be use for [Useful Guides](documentat
     * [BottomSheetDialogFragment](documentation/App_Navigation/BottomSheetDialogFragment)
     * [App Links](documentation/App_Navigation/App_Links)
 * [App Startup (Jetpack)](documentation/App_Startup)
-* [Dependency Injection](documentation/Dependency_Injection) ***(Ongoing)***
-* Architecture Components (Jetpack) ***(Coming Soon)***
+* [Dependency Injection](documentation/Dependency_Injection) 
+* Architecture Components (Jetpack) ***(Ongoing)***
     * UI Layer
     * Data Layer
 * Design Patterns ***(Coming Soon)***
