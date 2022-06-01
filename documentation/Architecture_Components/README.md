@@ -10,24 +10,7 @@ Google supports a suite of libraries to achieve the app architecture defined und
 [Android Jetpack](https://developer.android.com/jetpack). Let's see the most used libraries in
 Android Jetpack for each layer:
 
-### UI Layer Libraries
-Android Jetpack supports the following useful UI-related libraries to help in creating the right
-app architecture:
-* **ViewBinding**: generates a binding class for each XML layout file, which contains direct
-    references to all views that have an ID in the corresponding layout.
-* **DataBinding**: [Data Binding](https://developer.android.com/topic/libraries/data-binding) lets
-    you generate a binding class for XML layouts that includes a `layout` tag based on the
-    annotation processor. Data binding is an essential part of the MVVM architecture that links the
-    View and ViewModel with observer patterns, properties, and event callbacks.
-* **ViewModel**: [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) 
-    is a state holder to store and manage UI-related data in configuration changes.
-* **LiveData**: [LiveData](https://developer.android.com/topic/libraries/architecture/livedata) is
-    a lifecycle-aware data holder, which can be observed by multiple [Observer](https://developer.android.com/reference/androidx/lifecycle/Observer)
-    . The observers are notified of data changes depending on state of the [LifecycleOwner](https://developer.android.com/reference/androidx/lifecycle/LifecycleOwner).
-
-* **Lifecycle**: Jetpack's [Lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)
-    allows you to build independent components, which observe the lifecycle changes of lifecycle 
-    owners such as activities and fragments. 
+* [UI Layer Libraries](UI_Layer)
 
 ### Data Layer Libraries
 Android Jetpack supports data layer libraries that handle tasks like persisting data to the
