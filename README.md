@@ -31,7 +31,7 @@ Just in case if I forgot something, it can be use for [Useful Guides](documentat
 * [App Startup (Jetpack)](documentation/App_Startup)
 * [Dependency Injection](documentation/Dependency_Injection) 
 * [Architecture Components (Jetpack)](documentation/Architecture_Components) ***(Ongoing)***
-    * UI Layer
+    * [UI Layer](documentation/Architecture_Components/UI_Layer)
     * Data Layer
 * Design Patterns ***(Coming Soon)***
     * Builder Pattern
