@@ -30,7 +30,7 @@ Just in case if I forgot something, it can be use for [Useful Guides](documentat
     * [App Links](documentation/App_Navigation/App_Links)
 * [App Startup (Jetpack)](documentation/App_Startup)
 * [Dependency Injection](documentation/Dependency_Injection) 
-* Architecture Components (Jetpack) ***(Ongoing)***
+* [Architecture Components (Jetpack)](documentation/Architecture_Components) ***(Ongoing)***
     * UI Layer
     * Data Layer
 * Design Patterns ***(Coming Soon)***
