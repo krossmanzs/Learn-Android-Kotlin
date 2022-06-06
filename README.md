@@ -30,11 +30,11 @@ Just in case if I forgot something, it can be use for [Useful Guides](documentat
     * [App Links](documentation/App_Navigation/App_Links)
 * [App Startup (Jetpack)](documentation/App_Startup)
 * [Dependency Injection](documentation/Dependency_Injection) 
-* [Architecture Components (Jetpack)](documentation/Architecture_Components) ***(Ongoing)***
+* [Architecture Components (Jetpack)](documentation/Architecture_Components)
     * [UI Layer](documentation/Architecture_Components/UI_Layer)
     * [Domain Layer](documentation/Architecture_Components/Domain_Layer)
     * [Data Layer](documentation/Architecture_Components/Data_Layer)
-* Design Patterns ***(Coming Soon)***
+* Design Patterns ***(Ongoing)***
     * Builder Pattern
     * Factory Pattern
     * Dependency Injection
