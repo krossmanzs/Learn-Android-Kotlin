@@ -32,6 +32,7 @@ Just in case if I forgot something, it can be use for [Useful Guides](documentat
 * [Dependency Injection](documentation/Dependency_Injection) 
 * [Architecture Components (Jetpack)](documentation/Architecture_Components) ***(Ongoing)***
     * [UI Layer](documentation/Architecture_Components/UI_Layer)
+    * [Domain Layer](documentation/Architecture_Components/Domain_Layer)
     * [Data Layer](documentation/Architecture_Components/Data_Layer)
 * Design Patterns ***(Coming Soon)***
     * Builder Pattern
