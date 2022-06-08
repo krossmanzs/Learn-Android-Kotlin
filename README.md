@@ -35,7 +35,7 @@ Just in case if I forgot something, it can be use for [Useful Guides](documentat
     * [Domain Layer](documentation/Architecture_Components/Domain_Layer)
     * [Data Layer](documentation/Architecture_Components/Data_Layer)
 * [Design Patterns](documentation/Design_Patterns) ***(Ongoing)***
-    * Builder Pattern
+    * [Builder Pattern](documentation/Design_Patterns/Builder_Pattern)
     * Factory Pattern
     * Dependency Injection
     * Observer Pattern
