@@ -29,3 +29,7 @@ There are so many pattern:
 * Dependency Injection
 * Observer Pattern
 * Repository Pattern
+
+## Notes
+* [Common Design Patterns and App Architectures for Android](https://www.raywenderlich.com/18409174-common-design-patterns-and-app-architectures-for-android#toc-anchor-012)
+* [Mengenal Design Pattern Pada Android](https://blog.sekolahmobile.com/mengenal-design-pattern-pada-android/)
