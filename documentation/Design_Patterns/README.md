@@ -4,6 +4,18 @@ object shows and help eradicate design-specific problems. In other words, they r
 other developers already faced and prevent you from reinventing the wheel by showing you proven
 ways to solve those problems.
 
+## Benefits
+1. Design Patterns use object-oriented concepts such as decomposition, inheritance, and polymorphism.
+2. They can improve the re-usability and extensibility of Android apps. It means you do not need to
+    write the same code again at various places, and also you can able to add other features to your
+    app much more easier than general coding. Therefore, Design Patterns can increase speed in application
+    development in Android.
+3. They can make your codes cleaner by decoupling the code. In addition, Design Patterns can enhance 
+    the understanding of codes in Android apps.
+4. Design Patterns are proved and testified solutions because they have been build upon the knowledge
+    and experience of expert application developers.
+5. They make communication between developers more efficiently. _[source](https://medium.com/kayvan-kaseb/builder-design-pattern-in-android-a38dccb75485)_
+
 There are so many pattern:
 ### Creational Patterns
 * Builder
