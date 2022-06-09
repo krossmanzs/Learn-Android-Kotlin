@@ -36,7 +36,7 @@ There are so many pattern:
 * State
 
 ## On this project, I only learn those patterns:
-* Builder Pattern
+* [Builder Pattern](Builder_Pattern)
 * Factory Pattern
 * Dependency Injection
 * Observer Pattern
