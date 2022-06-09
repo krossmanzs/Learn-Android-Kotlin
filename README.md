@@ -37,7 +37,7 @@ Just in case if I forgot something, it can be use for [Useful Guides](documentat
 * [Design Patterns](documentation/Design_Patterns) ***(Ongoing)***
     * [Builder Pattern](documentation/Design_Patterns/Builder_Pattern)
     * [Factory Pattern](documentation/Design_Patterns/Factory_Pattern)
-    * Dependency Injection
+    * [Dependency Injection](documentation/Dependency_Injection)
     * Observer Pattern
     * Repository Pattern
 * Architecture ***(Coming Soon)***
