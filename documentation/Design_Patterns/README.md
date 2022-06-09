@@ -37,7 +37,7 @@ There are so many pattern:
 
 ## On this project, I only learn those patterns:
 * [Builder Pattern](Builder_Pattern)
-* Factory Pattern
+* [Factory Pattern](Factory_Pattern)
 * Dependency Injection
 * Observer Pattern
 * Repository Pattern
