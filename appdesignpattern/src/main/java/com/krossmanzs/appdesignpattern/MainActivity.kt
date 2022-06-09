@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.krossmanzs.appdesignpattern.builder.BuilderActivity
 import com.krossmanzs.appdesignpattern.databinding.ActivityMainBinding
+import com.krossmanzs.appdesignpattern.factory.FactoryActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -17,6 +18,12 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnBuilder.setOnClickListener {
             Intent(this, BuilderActivity::class.java).also {
+                startActivity(it)
+            }
+        }
+
+        binding.btnFactory.setOnClickListener {
+            Intent(this, FactoryActivity::class.java).also {
                 startActivity(it)
             }
         }
