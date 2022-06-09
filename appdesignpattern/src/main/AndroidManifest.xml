@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Learn_Android_Kotlin">
         <activity
+            android:name=".dependencyinjection.DIActivity"
+            android:exported="false" />
+        <activity
             android:name=".factory.FactoryActivity"
             android:exported="false" />
         <activity
