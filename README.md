@@ -38,7 +38,7 @@ Just in case if I forgot something, it can be use for [Useful Guides](documentat
     * [Builder Pattern](documentation/Design_Patterns/Builder_Pattern)
     * [Factory Pattern](documentation/Design_Patterns/Factory_Pattern)
     * [Dependency Injection](documentation/Dependency_Injection)
-    * Observer Pattern
+    * [Observer Pattern](documentation/Design_Patterns/Observer_Pattern)
     * Repository Pattern
 * Architecture ***(Coming Soon)***
     * MVVM (Model-View-Viewmodel)

@@ -39,7 +39,7 @@ There are so many pattern:
 * [Builder Pattern](Builder_Pattern)
 * [Factory Pattern](Factory_Pattern)
 * [Dependency Injection](../Dependency_Injection)
-* Observer Pattern
+* [Observer Pattern](Observer_Pattern)
 * Repository Pattern
 
 ## Notes
