@@ -40,7 +40,7 @@ There are so many pattern:
 * [Factory Pattern](Factory_Pattern)
 * [Dependency Injection](../Dependency_Injection)
 * [Observer Pattern](Observer_Pattern)
-* Repository Pattern
+* [Repository Pattern](Repository_Pattern)
 
 ## Notes
 * [Common Design Patterns and App Architectures for Android](https://www.raywenderlich.com/18409174-common-design-patterns-and-app-architectures-for-android#toc-anchor-012)

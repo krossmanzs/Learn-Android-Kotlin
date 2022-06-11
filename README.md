@@ -39,7 +39,7 @@ Just in case if I forgot something, it can be use for [Useful Guides](documentat
     * [Factory Pattern](documentation/Design_Patterns/Factory_Pattern)
     * [Dependency Injection](documentation/Dependency_Injection)
     * [Observer Pattern](documentation/Design_Patterns/Observer_Pattern)
-    * Repository Pattern
+    * [Repository Pattern](documentation/Design_Patterns/Repository_Pattern)
 * Architecture ***(Coming Soon)***
     * MVVM (Model-View-Viewmodel)
     * MVP (Model-View-Presenter)
