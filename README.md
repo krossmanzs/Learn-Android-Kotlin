@@ -34,14 +34,14 @@ Just in case if I forgot something, it can be use for [Useful Guides](documentat
     * [UI Layer](documentation/Architecture_Components/UI_Layer)
     * [Domain Layer](documentation/Architecture_Components/Domain_Layer)
     * [Data Layer](documentation/Architecture_Components/Data_Layer)
-* [Design Patterns](documentation/Design_Patterns) ***(Ongoing)***
+* [Design Patterns](documentation/Design_Patterns)
     * [Builder Pattern](documentation/Design_Patterns/Builder_Pattern)
     * [Factory Pattern](documentation/Design_Patterns/Factory_Pattern)
     * [Dependency Injection](documentation/Dependency_Injection)
     * [Observer Pattern](documentation/Design_Patterns/Observer_Pattern)
     * [Repository Pattern](documentation/Design_Patterns/Repository_Pattern)
-* Architecture ***(Coming Soon)***
-    * MVVM (Model-View-Viewmodel)
+* Architecture ***(Ongoing)***
+    * MVVM (Model-View-ViewModel)
     * MVP (Model-View-Presenter)
     * MVI (Model-View-Intent)
     * MVC (Model-View-Controller)
