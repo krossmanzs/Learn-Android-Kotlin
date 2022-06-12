@@ -41,7 +41,7 @@ Just in case if I forgot something, it can be use for [Useful Guides](documentat
     * [Observer Pattern](documentation/Design_Patterns/Observer_Pattern)
     * [Repository Pattern](documentation/Design_Patterns/Repository_Pattern)
 * Architecture ***(Ongoing)***
-    * MVVM (Model-View-ViewModel)
+    * [MVVM (Model-View-ViewModel)](documentation/Architecture/MVVM)
     * MVP (Model-View-Presenter)
     * MVI (Model-View-Intent)
     * MVC (Model-View-Controller)
