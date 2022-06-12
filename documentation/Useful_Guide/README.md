@@ -10,3 +10,4 @@
 * [Navigation Component - Android Studio (Playlist)](https://www.youtube.com/playlist?list=PLSrm9z4zp4mHilvsfUM3jeCYFV3fTAS3J)
 * [Fragments Implementation using Kotlin || Fragments using Kotlin || Android Studio Tutorial || 2021](https://youtu.be/Q2HY58s9cHs)
 * [Factory Method | Kotlin Design Patterns](https://youtu.be/qUeHnjXSCMg)
+* [Android MVVM | ViewModel + LiveData | And example app](https://youtu.be/UTvR-dU0SXk)
