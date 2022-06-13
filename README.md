@@ -40,9 +40,9 @@ Just in case if I forgot something, it can be use for [Useful Guides](documentat
     * [Dependency Injection](documentation/Dependency_Injection)
     * [Observer Pattern](documentation/Design_Patterns/Observer_Pattern)
     * [Repository Pattern](documentation/Design_Patterns/Repository_Pattern)
-* Architecture ***(Ongoing)***
+* [Architecture](documentation/Architecture) ***(Ongoing)***
     * [MVVM (Model-View-ViewModel)](documentation/Architecture/MVVM)
-    * MVP (Model-View-Presenter)
+    * [MVP (Model-View-Presenter)](documentation/Architecture/MVP)
     * MVI (Model-View-Intent)
     * MVC (Model-View-Controller)
     * Clean Architecture

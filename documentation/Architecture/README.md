@@ -6,7 +6,7 @@ architecture patterns are applied to separate the concerns.
 
 In this learning path I'll cover those patterns:
 * [MVVM (Model-View-ViewModel)](MVVM)
-* MVP (Model-View-Presenter)
+* [MVP (Model-View-Presenter)](MVP)
 * MVI (Model-View-Intent)
 * MVC (Model-View-Controller)
 * Clean Architecture
