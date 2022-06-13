@@ -10,6 +10,9 @@ import com.krossmanzs.apparchitecture.mvp.view.ILoginView
 
 class MvpActivity : AppCompatActivity(), ILoginView {
 
+    // learn it from here
+    // https://www.youtube.com/watch?v=Saj4jnK5zBw
+
     private lateinit var binding : ActivityMvpBinding
     private lateinit var loginPresenter: ILoginPresenter
 
