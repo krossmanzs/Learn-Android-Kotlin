@@ -43,7 +43,7 @@ Just in case if I forgot something, it can be use for [Useful Guides](documentat
 * [Architecture](documentation/Architecture) ***(Ongoing)***
     * [MVVM (Model-View-ViewModel)](documentation/Architecture/MVVM)
     * [MVP (Model-View-Presenter)](documentation/Architecture/MVP)
-    * MVI (Model-View-Intent)
+    * [MVI (Model-View-Intent)](documentation/Architecture/MVI)
     * MVC (Model-View-Controller)
     * Clean Architecture
 * Network ***(Coming Soon)***
