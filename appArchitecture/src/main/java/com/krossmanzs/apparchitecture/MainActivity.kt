@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.krossmanzs.apparchitecture.databinding.ActivityMainBinding
+import com.krossmanzs.apparchitecture.mvi.ui.main.view.MviActivity
 import com.krossmanzs.apparchitecture.mvp.MvpActivity
 import com.krossmanzs.apparchitecture.mvvm.view.MvvmActivity
 
@@ -27,6 +28,12 @@ class MainActivity : AppCompatActivity() {
         
         binding.btnMvp.setOnClickListener { 
             Intent(this, MvpActivity::class.java).also {
+                startActivity(it)
+            }
+        }
+
+        binding.btnMvi.setOnClickListener {
+            Intent(this, MviActivity::class.java).also {
                 startActivity(it)
             }
         }
